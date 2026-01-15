@@ -1,3 +1,9 @@
+[![Go Report Card](https://goreportcard.com/badge/github.com/voluminor/shardedflight)](https://goreportcard.com/report/github.com/voluminor/shardedflight)
+
+![GitHub repo file or directory count](https://img.shields.io/github/directory-file-count/voluminor/shardedflight?color=orange)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/voluminor/shardedflight?color=green)
+![GitHub repo size](https://img.shields.io/github/repo-size/voluminor/shardedflight)
+
 # ShardedFlight
 
 Ready-to-use highly parallel wrapper for **golang.org/x/sync/singleflight** that *shards* calls between multiple internal `singleflight.Group` to eliminate global locks and increase throughput under high load.
